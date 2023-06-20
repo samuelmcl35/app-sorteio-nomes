@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App de Sorteio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/img/smcldev-logo-white.png" alt="Logo smcldev" />
+      <h1>App de Sorteio de Nomes</h1>
+    </header>
+    <main class="app">
+      <section>
+        <h2>SORTEAR NOMES</h2>
+        <p>Crie o sorteio de <strong>nomes</strong> facilmente utilizando essa aplicação</p>
+        <hr />
+        <p class="textoEsquerda">Adicione nomes</p>
+        <div class="formulario">
+          <label for="entradaNomes">Adicione os nomes para o sorteio</label>
+          <textarea
+            id="entradaNomes"
+            placeholder="Adicione nomes separados por vírgula (Por exemplo: Maria, João, Felipe)."
+          ></textarea>
+          <button class="botaoSortear">Sortear</button>
+        </div>
+        <div class="resultado">
+          <span class="fechar">X</span>
+          <p>Resultado:</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Feito pelo Samuel Lee, por meio do Intensivo Frontkenzie (Kenzie Academy)</p>
+    </footer>
+  </body>
+  <script src="./assets/js/script.js"></script>
+</html>
